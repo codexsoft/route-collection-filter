@@ -1,0 +1,37 @@
+{
+    "name": "codexsoft/transmission-symfony-bridge",
+    "license": "MIT",
+    "description": "Simple Symfony RouteCollection filter",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codexsoft/route-collection-filter/issues",
+        "source": "https://github.com/codexsoft/route-collection-filter"
+    },
+    "require": {
+        "php": "^7.4.0",
+        "symfony/routing": "^4.4|^5.0",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\RouteCollectionFilter\\": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodexSoft\\RouteCollectionFilter\\": ["tests/unit/"],
+            "": ["vendor/"]
+        }
+    }
+}
