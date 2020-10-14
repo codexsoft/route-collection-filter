@@ -1,5 +1,5 @@
 {
-    "name": "codexsoft/transmission-symfony-bridge",
+    "name": "codexsoft/route-collection-filter",
     "license": "MIT",
     "description": "Simple Symfony RouteCollection filter",
     "authors": [
