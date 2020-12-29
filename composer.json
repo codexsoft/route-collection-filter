@@ -15,7 +15,7 @@
         "source": "https://github.com/codexsoft/route-collection-filter"
     },
     "require": {
-        "php": "^7.4.0",
+        "php": "^7.4|^8",
         "symfony/routing": "^4.4|^5.0",
         "psr/log": "^1.1"
     },
